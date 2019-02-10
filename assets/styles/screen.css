@@ -57,6 +57,7 @@ img {
 }
 
 .container {
+  font-weight: bold;
   margin: 0 auto;
   max-width: 720px;
   padding: .75rem;
