@@ -56,6 +56,10 @@ img {
   width: 100%;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 .container {
   margin: 0 auto;
   max-width: 720px;
