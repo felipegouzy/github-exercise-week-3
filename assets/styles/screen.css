@@ -61,11 +61,6 @@ img {
   width: 100%;
 }
 
-.caption {
-  display: flex;
-  justify-content: space-between;  
-}
-
 .container {
   margin: 0 auto;
   max-width: 720px;
@@ -74,8 +69,8 @@ img {
 
 .gallery {
   display: grid;
-  grid-gap: .25rem;
-  grid-template-columns:repeat(2, 1fr);
+  grid-gap: .5rem;
+  grid-template-columns:repeat(3, 1fr);
 }
 
 .header {
