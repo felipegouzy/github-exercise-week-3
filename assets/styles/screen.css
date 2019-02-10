@@ -1,0 +1,127 @@
+/**
+ * Style Defaults
+ */
+body {
+  color: #303030;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a:link {
+  color: #db0a5b;
+}
+
+a:hover {
+  color: #000;
+}
+
+/**
+ *Typographic Styles
+ */
+h1,
+h2,
+ol,
+p,
+ul {
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+h1 { 
+  font-size: 1.75rem;
+}
+
+h2 {
+  font-size: 1.375rem;
+}
+
+ol,
+p,
+ul { 
+  font-size: 1.125rem;
+}
+
+/**
+ * Layout Styles
+ *
+ * @ToDo: Create and style a .main-header class
+ *        - Add padding
+ *        - Display as flexbox
+ *        - Align heading and menu along X axis
+ *        - Nav items should be aligned to the right
+ */
+figure {
+  margin: 0;
+}
+
+img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.caption {
+  display: flex;
+  justify-content: space-between;  
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 720px;
+  padding: .75rem;
+}
+
+.gallery {
+  display: grid;
+  grid-gap: .25rem;
+  grid-template-columns:repeat(2, 1fr);
+}
+
+.header {
+  margin-bottom: 48px;
+}
+
+.main-nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav-item {
+  font-weight: bold;
+  text-decoration: none;
+  padding: .5rem;
+}
+
+.main-nav-item a {
+  text-decoration: none;
+}
+
+.rem-conversion,
+.flex-grid-guides {
+  background-color: #eaeaea;
+  border-left: 2px solid;
+  border-color: #db0a5b;
+  display: inline-block;
+  padding: .25rem;
+  
+}
+/**
+  *Utilities
+  */
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.row {
+  flex-direction: row;
+}
