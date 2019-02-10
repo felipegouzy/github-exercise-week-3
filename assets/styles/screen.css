@@ -93,15 +93,6 @@ img {
   text-decoration: none;
 }
 
-.rem-conversion,
-.flex-grid-guides {
-  background-color: #eaeaea;
-  border-left: 2px solid;
-  border-color: #db0a5b;
-  display: inline-block;
-  padding: .25rem;
-  
-}
 /**
   *Utilities
   */
