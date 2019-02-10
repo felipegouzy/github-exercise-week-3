@@ -75,7 +75,7 @@ img {
 }
 
 .main-nav-item {
-  
+  align-items: center;
   font-weight: bold;
   text-decoration: none;
   padding: .5rem;
