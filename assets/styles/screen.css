@@ -33,14 +33,6 @@ h2 {
   margin-bottom: 1.5rem;
 }
 
-ol,
-p,
-ul { 
-  font-size: 1.125rem;
-  line-height: 1.6;
-  margin-bottom: 1.5rem;
-}
-
 /**
  * Layout Styles
  *
@@ -55,10 +47,6 @@ figure {
 }
 
 header {
-  display:flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
   margin-bottom: 48px;
 }
 
@@ -87,6 +75,7 @@ img {
 }
 
 .main-nav-item {
+  
   font-weight: bold;
   text-decoration: none;
   padding: .5rem;
