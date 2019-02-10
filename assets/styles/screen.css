@@ -5,7 +5,7 @@ body {
   color: #303030;
   font-family: sans-serif;
   margin: 0;
-  padding: 0;
+  padding: 0 150px 150px 150px;
 }
 
 a:link {
@@ -19,28 +19,26 @@ a:hover {
 /**
  *Typographic Styles
  */
-h1,
-h2,
-ol,
-p,
-ul {
-  line-height: 1.6;
-  margin-bottom: 1.5rem;
-}
 
 h1 { 
   font-family: serif;
   font-size: 1.75rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
 }
 
 h2 {
   font-size: 1.375rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
 }
 
 ol,
 p,
 ul { 
   font-size: 1.125rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
 }
 
 /**
