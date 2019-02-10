@@ -56,14 +56,18 @@ figure {
   margin: 0;
 }
 
+header {
+  display:flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+
 img {
   display: block;
   height: auto;
   width: 100%;
-}
-
-.banner {
-
 }
 
 .container {
@@ -78,7 +82,11 @@ img {
   grid-template-columns:repeat(3, 1fr);
 }
 
-.header {
+header {
+  display:flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
   margin-bottom: 48px;
 }
 
