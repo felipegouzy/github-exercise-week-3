@@ -29,6 +29,7 @@ ul {
 }
 
 h1 { 
+  font-family: serif;
   font-size: 1.75rem;
 }
 
@@ -61,8 +62,11 @@ img {
   width: 100%;
 }
 
+.banner {
+
+}
+
 .container {
-  display: flex;
   margin: 0 auto;
   max-width: 720px;
   padding: .75rem;
