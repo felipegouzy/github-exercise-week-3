@@ -69,10 +69,15 @@ img {
 }
 
 
+strong {
+  font-size: 18px;
+}
+
+
 .container {
   margin: 0 auto;
   max-width: 720px;
-  padding: 0 ;
+  padding: 1.5rem;
 }
 
 .gallery {
