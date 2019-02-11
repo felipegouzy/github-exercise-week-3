@@ -130,6 +130,7 @@ strong {
   /* CSS Here */
 
   .container {
+    display: block;
     padding: 1.5rem;
   }
   
