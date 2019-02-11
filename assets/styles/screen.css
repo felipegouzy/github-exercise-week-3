@@ -29,7 +29,6 @@ h1 {
 
 h2 {
   font-size: 1.375rem;
-  align-items: center;
   line-height: 1.6;
   margin-bottom: 1.5rem;
 }
@@ -48,6 +47,7 @@ figure {
 }
 
 header {
+  display: inline;
   margin-bottom: 48px;
 }
 
@@ -123,7 +123,7 @@ img {
   
   .gallery {
     display: grid;
-    grid-gap: 1.5rem;
+    grid-gap: .5rem;
     grid-template-columns:repeat(3, 1fr);
   }
   
