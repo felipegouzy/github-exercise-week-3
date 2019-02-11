@@ -29,6 +29,7 @@ h1 {
 
 h2 {
   font-size: 1.375rem;
+  align-items: center;
   line-height: 1.6;
   margin-bottom: 1.5rem;
 }
@@ -65,7 +66,14 @@ img {
 .gallery {
   display: grid;
   grid-gap: .5rem;
-  grid-template-columns:repeat(3, 1fr);
+  grid-template-columns:repeat(1, 1fr);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .main-nav-list {
@@ -89,7 +97,7 @@ img {
 
 /**
   *Utilities
-  */
+
 .flex {
   display: flex;
 }
@@ -104,4 +112,48 @@ img {
 
 .row {
   flex-direction: row;
-}
+} */
+
+@media screen and (min-width: 640px){
+  /* CSS Here */
+
+  .container {
+    padding: 1.5rem;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-gap: 1.5rem;
+    grid-template-columns:repeat(3, 1fr);
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .main-nav-list { 
+     display: flex;
+     align-items: center 
+  }
+  
+  /**
+  *Utilities
+
+  .flex-md {
+    display: flex;
+  }
+
+  .items-center-md {
+    align-items: center;
+  }
+
+  .space-between-md {
+    justify-content: space-between;
+  }
+
+  .row-md {
+    flex-direction: row;
+  }*/
