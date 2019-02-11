@@ -9,11 +9,11 @@ body {
 }
 
 a:link {
-  color: #db0a5b;
+  color: ffffff;
 }
 
 a:hover {
-  color: #000;
+  color: #ffffff;
 }
 
 /**
@@ -21,6 +21,7 @@ a:hover {
  */
 
 h1 { 
+  display: block;
   font-family: serif;
   font-size: 1.75rem;
   line-height: 1.6;
@@ -29,8 +30,8 @@ h1 {
 
 h2 {
   font-size: 1.375rem;
-  line-height: 1.6;
-  margin-bottom: 1.5rem;
+  line-height: .6;
+  margin-bottom: 0px;
 }
 
 /**
@@ -47,8 +48,13 @@ figure {
 }
 
 header {
-  display: inline;
-  margin-bottom: 48px;
+  background-color: #000;
+  margin: 0 auto;
+  padding: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 img {
@@ -69,14 +75,8 @@ img {
   grid-template-columns:repeat(1, 1fr);
 }
 
-.header {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
 .main-nav-list {
+  display: block;
   list-style: none;
   margin: 0;
   padding: 0;
